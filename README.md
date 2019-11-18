@@ -1,2 +1,4 @@
 # no-react
-Custom react approach
+Custom react-like approach
+
+Based on https://pomb.us/build-your-own-react/ tutorial
