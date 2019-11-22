@@ -46,7 +46,7 @@ const GZip = () => new CompressionPlugin({
 const config = {
   target: 'web',
   entry: [
-    './index.js',
+    './createOnboarding.js',
   ],
   output: {
     path: path.resolve(__dirname, './public'),
