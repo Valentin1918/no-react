@@ -46,7 +46,7 @@ const GZip = () => new CompressionPlugin({
 const config = {
   target: 'web',
   entry: [
-    './createOnboarding.js',
+    './index.js',
   ],
   output: {
     path: path.resolve(__dirname, './public'),
@@ -73,9 +73,6 @@ const config = {
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
     stats: 'errors-only',
-    // compress: true,
-    // hot: true,
-    // open: true,
   },
   plugins: [
     new webpack.DefinePlugin({
